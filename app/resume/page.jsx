@@ -1,12 +1,12 @@
 'use client';
 
 import {FaHtml5, FaCss3, FaJs, FaReact, FaPython} from 'react-icons/fa';
-import {SiTailwindcss, SiLaravel, SiDjango, SiBootstrap} from 'react-icons/si'
+import {SiTailwindcss, SiLaravel, SiDjango, SiBootstrap, SiUnity, SiAdobephotoshop, SiAdobepremierepro} from 'react-icons/si'
 
 // about data
 const about ={
     title: 'About Me',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis maxime tenetur, ipsa accusantium provident deleniti!',
+    description: 'Mengenali siapa saya lebih jauh',
     info: [
         {
             fieldName: 'Name',
@@ -43,7 +43,7 @@ const about ={
 const experiences = {
     icon:'/assets/resume/badge.svg',
     title:'My Experience',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis maxime tenetur, ipsa accusantium provident deleniti!',
+    description: 'Beberapa pengalaman yang saya miliki sebagai web developer, IT Support, dan Cyber Security. Mulai dari proyek selama menempuh program studi, magang, dan pekerjaan setelah lulus.',
     items: [
         {
             company: 'PT. Kunci Transformasi Digital',
@@ -52,7 +52,7 @@ const experiences = {
         },
         {
             company: 'Madrasah Alif',
-            position: 'IT Teacher',
+            position: 'Guru Informatika',
             duration: '2023 - Present',
         },
         {
@@ -72,7 +72,7 @@ const experiences = {
 const education={
     icon:'/assets/resume/cap.svg',
     title:'My Education',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis maxime tenetur, ipsa accusantium provident deleniti!',
+    description: 'Studi, pelatihan, dan seminar yang dilakukan untuk meningkatkan level kemahiran dalam bidang web development, IT Support, dan Cyber Security',
     items:[
         {
             institution: 'Universitas Pasundan',
@@ -89,13 +89,18 @@ const education={
             degree: 'Introduction to Information Security Case',
             duration: '2024',
         },
+        {
+            institution: 'Edspert.id',
+            degree: 'Intensive Bootcamp Microsoft Excel',
+            duration: '2022',
+        },
     ]
 };
 
 // skill data
 const skills = {
     title: 'My Skills',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus vero aliquam laboriosam asperiores recusandae in?',
+    description: 'Bahasa pemrograman, framework, dan aplikasi pendukung yang telah dikuasai',
     skilllist: [
         {
             icon: <FaHtml5 />,
@@ -132,6 +137,18 @@ const skills = {
         {
             icon: <SiBootstrap />,
             name: 'bootstrap.css',
+        },
+        {
+            icon: <SiUnity />,
+            name: 'Unity',
+        },
+        {
+            icon: <SiAdobephotoshop />,
+            name: 'Adobe Photoshop',
+        },
+        {
+            icon: <SiAdobepremierepro />,
+            name: 'Adobe Premire',
         },
     ]
 };

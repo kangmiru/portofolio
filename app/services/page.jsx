@@ -7,25 +7,25 @@ const services = [
     {
         num: '01',
         title: 'Web Developer',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. . Deleniti, totam ea!',
+        description: 'Menawarkan layanan pengembangan web yang penuh semangat, dengan fokus pada pengalaman pengguna dan desain modern yang responsif di berbagai perangkat.',
         href: '',
     },
     {
         num: '02',
         title: 'Game Developer',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. . Deleniti, totam ea!',
+        description: 'Membawa pendekatan baru dalam menciptakan game dengan grafis menarik dan mekanik gameplay yang interaktif.',
         href: '',
     },
     {
         num: '03',
         title: 'Mobile Developer',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. . Deleniti, totam ea!',
+        description: 'Siap membantu mewujudkan aplikasi yang memenuhi kebutuhan pengguna dengan desain yang modern dan kinerja yang efisien.',
         href: '',
     },
     {
         num: '04',
         title: 'Cyber Security',
-        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. . Deleniti, totam ea!',
+        description: 'Siap membantu Anda mengidentifikasi kerentanan dan mengamankan sistem dengan solusi terbaru dalam keamanan siber, dengan tekad untuk terus belajar dan menghadapi tantangan baru.',
         href: '',
     },
 ];

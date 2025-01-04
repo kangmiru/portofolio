@@ -13,19 +13,20 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Software Developer - IT Support - Cyber Security</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Hafadz Hazmirullah</span>
+              Hai Saya <br /> <span className="text-accent">Hafadz Hazmirullah</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am proficient in various ptogramming languages and technologies
+              Saya unggul dalam bidang web developer, serta mahir dalam berbagai bahasa pemrograman dan teknologi
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button 
                 variant="outline"
                 size='lg'
-                className='uppercase flex items-center gap-2' 
+                className='uppercase flex items-center gap-2'
+                href='https://drive.google.com/uc?export=download&id=1hyPBAJL2o84O7egz6eaW2opueSjZPP-k'
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
